@@ -18,7 +18,7 @@ os.makedirs(kaggle_dir, exist_ok=True)
 kaggle_json_path = os.path.join(kaggle_dir, 'kaggle.json')
 
 # Uncomment and update the path if you need to move your kaggle.json file
-# os.rename('/Users/anurag/Documents/GitHub/RecommendationEngine/.kaggle/kaggle.json', kaggle_json_path)
+os.rename('/Users/anurag/Documents/GitHub/RecommendationEngine/.kaggle/kaggle.json', kaggle_json_path)
 
 # Define dataset and file path
 dataset = 'snap/amazon-fine-food-reviews'
